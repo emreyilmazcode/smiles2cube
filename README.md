@@ -4,6 +4,13 @@
 
 A lightweight Python tool that generates **electron density .cube files** from SMILES strings.
 
+## 🚀 Installation
+
+You can install `smiles2cube` directly from PyPI using pip:
+
+```bash
+pip install smiles2cube
+
 **Workflow**:
 1. RDKit parses the SMILES → adds hydrogens → generates 3D conformer (ETK) → MMFF optimizes geometry
 2. PySCF builds the molecule from RDKit coordinates
