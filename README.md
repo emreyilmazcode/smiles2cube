@@ -1,4 +1,6 @@
 # smiles2cube
+[<image-card alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" ></image-card>](https://opensource.org/licenses/MIT)
+[<image-card alt="Python 3.8+" src="https://img.shields.io/badge/python-3.8+-blue.svg" ></image-card>](https://www.python.org/downloads/)
 
 A lightweight Python tool that generates **electron density .cube files** from SMILES strings.
 
