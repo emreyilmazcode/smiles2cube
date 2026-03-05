@@ -17,3 +17,17 @@ A lightweight Python tool that generates **electron density .cube files** from S
 ## Installation
 ```bash
 pip install rdkit pyscf
+
+## Usage
+from smiles2cube import smiles_to_cube
+
+# Ethanol example with better basis
+energy = smiles_to_cube(
+    smiles="CCO",
+    output_file="ethanol_density.cube",
+    basis="6-31g(d)",
+    grid_resolution=(100, 100, 100),   # optional
+    verbose=4                           # optional: more output
+)
+
+print(f"Total HF energy: {energy:.8f} Hartree")
